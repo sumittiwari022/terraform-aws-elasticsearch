@@ -8,8 +8,9 @@ variable "common_tags" {
   type        = map(string)
   description = "A map to add common tags to all the resources"
   default = {
-    Environment = "dev"
-    Project     = "ToTheNew",
+    Owner       = "terraform"
+    Env         = "prod"
+    Project     = "ttn",
   }
 }
 
